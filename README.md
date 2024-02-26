@@ -55,7 +55,7 @@ that aim to emulate the look of the old **MS Sans Serif font**.
 
 [@pordeno/ascii-font]: https://github.com/Pordeno/Ascii-Font
 [Block Element]: https://symbl.cc/en/unicode/blocks/block-elements/
-[Demo]: jsless-demo-tor-font.deno.dev/
+[Demo]: https://jsless-demo-tor-font.deno.dev/
 [Deno]: https://deno.com/
 
 [`Style.css`]: ./Source/Style.css
