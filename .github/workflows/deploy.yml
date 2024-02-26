@@ -27,5 +27,5 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "jsless-demo-sparks" # 📝 Update the deploy project name if necessary
+          project: "jsless-demo-tor-font" # 📝 Update the deploy project name if necessary
           entrypoint: "./Source/App.ts" # 📝 Update the entrypoint if necessary
