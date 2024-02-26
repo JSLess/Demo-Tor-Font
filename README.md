@@ -10,6 +10,15 @@ substituting custom fonts using ASCII art.
 
 [\[ Demo \]][Demo]  
 
+<br>
+
+<img src = './Preview.png' >
+
+<br>
+
+*If the demo doesn't look like this, your*  
+*systems monospace font might be problematic.*
+
 </div>
 
 <br>
