@@ -1,0 +1,59 @@
+
+:root {
+    --Zoom : 1 ;
+}
+
+body {
+
+    background : #010409 ;
+    color : white ;
+
+    justify-content : center ;
+    flex-direction : column ;
+    align-items : center ;
+    display : flex ;
+    gap : 4rem ;
+
+    height : 100dvh ;
+    width : 100dvw ;
+
+    margin : 0 ;
+}
+
+
+.Text {
+
+    text-size-adjust : auto ;
+    letter-spacing : -1px ;
+    font-family : monospace ;
+    user-select : none ;
+    line-height : 1 ;
+    min-width : fit-content ;
+    font-size : 100% ;
+    overflow : clip ;
+    height : 9ch ;
+
+    scale : max( 0.2 , min( 1 , var( --Zoom ) ) ) ;
+}
+
+
+.GitHub {
+
+    position : fixed ;
+    bottom : 1rem ;
+    right : 1rem ;
+
+    text-decoration : none ;
+    font-family : monospace ;
+    font-weight : bold ;
+    font-size : 1.2rem ;
+    color : white ;
+
+    cursor : pointer ;
+
+    transition : all 100ms ease-in-out ;
+}
+
+.GitHub:hover {
+    color : #a90640 ;
+}
